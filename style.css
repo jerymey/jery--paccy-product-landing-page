@@ -188,5 +188,19 @@ footer span {
   font-size: 0.9em;
   color: #444;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    text-align: center;
+  }
+  #section3 {
+    display: flex;
+    flex-direction: column;
+  }
+  #video{
+    display: flex;
+  }
+}
+
 
   
